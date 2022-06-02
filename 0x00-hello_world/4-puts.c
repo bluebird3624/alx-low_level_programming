@@ -5,6 +5,7 @@
  *  main - the programs entry point
  *  using puts function to utput an array of characters
  *  main function returns an int type set to value 0
+ *  Return: 0
  */
 
 int main(void)
