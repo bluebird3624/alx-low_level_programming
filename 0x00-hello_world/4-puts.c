@@ -6,6 +6,7 @@
 int main(void)
 {
 
+	/* using puts function to utput an array of characters */
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 
