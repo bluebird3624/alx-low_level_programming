@@ -14,7 +14,7 @@ int main(void)
 		putchar(zero);
 		if (zero == 57)
 		{
-			putchar(' ');
+			putchar('/0');
 			break;
 		}
 		putchar(',');
