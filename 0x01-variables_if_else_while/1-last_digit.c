@@ -34,7 +34,7 @@ int main(void)
 		word = "and is less than 6 and not 0\n";
 	}
 
-	printf("The last digit of %d is %d %s " ,n,last,word);
+	printf("last digit of %d is %d %s " ,n,last,word);
 
 	return (0);
 }
