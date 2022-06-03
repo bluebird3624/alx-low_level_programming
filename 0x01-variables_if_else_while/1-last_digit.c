@@ -5,7 +5,7 @@
 
 /**
  * main - entry point
- * Description: the program gets the last digit of the number 
+ * Description: the program gets the last digit of the number
  * through modular division by 10 where the last number is the remainder
  * Retun: 0
  */
@@ -21,7 +21,7 @@ int main(void)
 
 	last = n % 10;
 
-	if (last== 0)
+	if (last == 0)
 	{
 		word = "and is 0\n";
 	}
@@ -34,7 +34,7 @@ int main(void)
 		word = "and is less than 6 and not 0\n";
 	}
 
-	printf("Last digit of %d is %d %s" ,n,last,word);
+	printf("Last digit of %d is %d %s", n, last, word);
 
 	return (0);
 }
