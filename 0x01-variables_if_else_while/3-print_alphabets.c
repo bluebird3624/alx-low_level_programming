@@ -2,7 +2,9 @@
 
 /*
  * main - entry point
+ *
  * Description: prints out capital and small laters
+ *
  * Return: 0
  */
 
