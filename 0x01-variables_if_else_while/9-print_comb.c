@@ -2,7 +2,7 @@
 
 /**
 * main - entry point
-* Return: always 0 (success)
+* Return: 0
 */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 		putchar(zero);
 		if (zero == 57)
 		{
-			putchar('\0');
+			putchar('\n');
 			break;
 		}
 		putchar(',');
