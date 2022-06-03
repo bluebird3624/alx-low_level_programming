@@ -12,7 +12,7 @@ int main(void)
 	for (zero = 48; zero <= 57; zero++)
 	{
 		putchar(zero);
-		putchar(' ');
+		putchar(',');
 		if (zero == 57)
 		{
 			break;
