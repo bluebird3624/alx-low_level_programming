@@ -13,13 +13,13 @@
 int main(void)
 {
 	int n;
+	char *word;
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int last;
 	last = n % 10;
-	char *word;
 
 	if (n >5)
 	{
