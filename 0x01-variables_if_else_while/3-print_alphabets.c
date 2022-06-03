@@ -3,7 +3,7 @@
 /*
  * main - entry point
  *
- * Description: prints out capital and small laters
+ * Description - prints out capital and small laters
  *
  * Return: 0
  */
