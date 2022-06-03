@@ -7,7 +7,7 @@
  * main - entry point
  * Description: the program gets the last digit of the number
  * through modular division by 10 where the last number is the remainder
- * Retun: 0
+ * Return: 0
  */
 
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 	{
 		word = "and is 0\n";
 	}
-	else if (last >5)
+	else if (last > 5)
 	{
 		word = "and is greater than 5\n";
 	}
