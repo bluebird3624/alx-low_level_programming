@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - entry point
- * @void: no argument
- * Description - prints out capital and small laters
- *
+ * description - prints out capital and small laters
+ * starting with small then capital
  * Return: 0
  */
 
