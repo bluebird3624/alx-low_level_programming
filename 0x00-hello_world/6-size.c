@@ -2,10 +2,11 @@
 
 /**
  * main - prints out the verious sizes of files
- * Description: the file should use the sizeof() function to get the size of verious data types as its compiled in 32 nad 64 bit versions
- * Return: 0 
+ * Description: the file should use the sizeof() function to get the size
+ * of verious data types as its compiled in 32 nad 64 bit versions
+ * Return: 0
  */
- 
+
 
 int main(void)
 {
