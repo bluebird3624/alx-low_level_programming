@@ -21,13 +21,13 @@ int main(void)
 
 	last = n % 10;
 
-	if (n >5)
-	{
-		word = "and is greater than 5\n";
-	}
-	else if (n == 0)
+	if (n == 0)
 	{
 		word = "and is 0\n";
+	}
+	else if (n >5)
+	{
+		word = "and is greater than 5\n";
 	}
 	else if (n < 6 && n != 0)
 	{
