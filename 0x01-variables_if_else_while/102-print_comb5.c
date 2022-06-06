@@ -23,6 +23,7 @@ int main(void)
                 {
                     if (num1 == num3 && num2 == num4)
                     {
+			num4++;
                         continue;
                     }
                     putchar(num1);
