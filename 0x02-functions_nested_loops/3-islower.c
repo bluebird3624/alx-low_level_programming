@@ -2,7 +2,8 @@
 /**
  * _islower - checks for lowercase character
  * Return: 0
- * int a -: local integer to the function
+ * description: checks if alphabet is lower
+ * int a: local integer to the function
  */
 int _islower(int a)
 {
