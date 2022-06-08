@@ -5,9 +5,9 @@
  * description: checks if alphabet is lower
  * @a: local integer to the function
  */
-int _islower(int a)
+int _islower(int c)
 {
-	if (a >= 'a' && a <= 'z')
+	if (_islower(c))
 	{
 		return (1);
 	}
