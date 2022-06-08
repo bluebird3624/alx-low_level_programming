@@ -15,7 +15,7 @@ void times_table(void)
 			b = a * c;
 
 			e = b / 10;
-			r = b % 10;
+			d = b % 10;
 			if (c == 9)
 			{
 				if (b > 9)
