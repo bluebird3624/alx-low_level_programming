@@ -9,7 +9,7 @@ void alphabetx10(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (a = 'a'; c <= 'z'; a++)
+		for (a = 'a'; a <= 'z'; a++)
 		{
 			_putchar(a);
 		}
