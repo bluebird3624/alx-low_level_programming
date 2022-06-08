@@ -22,5 +22,5 @@ void count(int n)
 			_putchar(n + '0');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
