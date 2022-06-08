@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauner: returns all time
+ * jack_bauner - returns all time
  * Return: 0
  */
 void jack_bauer(void)
