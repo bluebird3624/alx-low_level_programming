@@ -6,7 +6,7 @@
  * @n: the number input as function parameter
  */
 
-void count(int n)
+void print_to_98(int n)
 {
 	if (n > 98)
 	{
