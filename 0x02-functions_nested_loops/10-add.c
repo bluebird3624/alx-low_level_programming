@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * add - takes in two numbers and adds them together returning the result
  * Return: the sumation results
