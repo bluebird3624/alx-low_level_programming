@@ -12,14 +12,14 @@ void count(int n)
 	{
 		for (n = n; n >= 98; n--)
 		{
-			printf("%d ,",n);
+			_putchar(n + '0');
 		}
 	}
 	else
 	{
 		for (n = n; n <= 98; n++)
 		{
-			printf("%d ,",n);
+			_putchar(n + '0');
 		}
 	}
 	putchar('\n');
