@@ -1,19 +1,15 @@
 #include "main.h"
-
 /**
  * times_table - prints the 9 times table
  */
-
 void times_table(void)
 {
 	int a, b, c, d, e;
-
 	for (a = 0; a <= 9; a++)
 	{
 		for (c = 0; c <= 9; c++)
 		{
 			b = a * c;
-
 			e = b / 10;
 			d = b % 10;
 			if (c == 9)
