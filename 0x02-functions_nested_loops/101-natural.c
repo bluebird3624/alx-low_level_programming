@@ -15,8 +15,8 @@ int main(void)
 		{
 			sum += count;
 		}
-	printf("%i\n", sum);
 	}
+	printf("%i\n", sum);
 
 	return (0);
 }
