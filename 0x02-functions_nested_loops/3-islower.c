@@ -2,10 +2,11 @@
 /**
  * _islower - checks for lowercase character
  * Return: 0
+ * a - local integer to the function
  */
-int _islower(int c)
+int _islower(int a)
 {
-	if (c >= 'a' && c <= 'z')
+	if (a >= 'a' && a <= 'z')
 	{
 		return (1);
 	}
