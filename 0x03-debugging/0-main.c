@@ -8,14 +8,9 @@
 int main(void)
 {
         int i;
-	int j;
 
         i = 0;
-        j = positive_or_negative(i);
-
-	if (j == i)
-	{
-		printf("%d is zero",i);
+        positive_or_negative(i);
 
         return (0);
 }
