@@ -16,7 +16,7 @@ int main(void)
 * Description: commenting out the loop -- while (i < 10)
 *	{
 *	putchar(i);
-* printf: prints feedback on loop end	}
+* @array: prints feedback on loop end	}
 */
 	printf("Infinite loop avoided! \\o/\n");
 
