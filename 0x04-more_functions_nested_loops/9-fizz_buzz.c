@@ -27,7 +27,7 @@ void fizz_buzz(void)
 				putchar('\n');
 				break;
 			}
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else
 		{
