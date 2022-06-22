@@ -13,9 +13,16 @@ void _print_rev_recursion(char *s)
 	}
 	else
 	{
-		s++;
-		_print_rev_recursion(s);
-		_putchar(*s);
+		if (*s == '\n')
+		{
+			_putchar(*s);
+		}
+		else
+		{
+			s++;
+			_print_rev_recursion(s);
+			_putchar(*s);
+		}
 	}
 
 }
