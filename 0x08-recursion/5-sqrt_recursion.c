@@ -1,25 +1,21 @@
 #include "main.h"
 
 /**
- * square - multiplies a number by itself
- * @x: The number to be multiplied by itself.
- * @y: number of times the number multiplies to it self
+ * find_sqrt - multiplies a number by itself
+ * @num: The number to be multiplied by itself.
+ * @root: number of times the number multiplies to it self
  * Return: x
  */
 
-int square(int x, int y)
+int find_sqrt(int num, int root)
 {
-	int sqrt;
+	if ((root * root) == num)
+		return (root);
 
-	sqr = x * x;
+	if (root == num / 2)
+		return (-1);
 
-	if (sqr == y)
-	{
-		return (x);
-	}
-	else
-	{
-		return (square(1+x,y));
+	return (find_sqrt(num, root + 1));
 }
 
 /**
@@ -31,7 +27,13 @@ int square(int x, int y)
 
 int _sqrt_recursion(int n)
 {
-	int i = 1;
+	int root = 0;
 
-	return (1 + sqare(1 + i, n));
+	if (n < 0)
+		return (-1);
+
+	if (n == 1)
+		return (1);
+
+	return (find_sqrt(n, root));
 }
