@@ -30,5 +30,3 @@ int *array_range(int min, int max)
 	}
 	return (q);
 }
-Footer
-© 2022 GitHub, In
