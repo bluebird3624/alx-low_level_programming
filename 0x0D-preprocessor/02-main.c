@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	printf("%s\n", FNAME);
+	printf("%s \n", FNAME);
 
 	return (0);
 }
