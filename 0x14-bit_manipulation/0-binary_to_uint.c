@@ -51,7 +51,7 @@ unsigned int binary_to_uint(const char *b)
 			{
 				if (b[count] != '\0')
 				{
-					b = NULL;
+					b = 0;
 					return (0);
 				}
 			}
