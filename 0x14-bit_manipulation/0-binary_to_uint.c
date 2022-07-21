@@ -55,6 +55,10 @@ unsigned int binary_to_uint(const char *b)
 				}
 			}
 		}
+		if(!b)
+		{
+			return (0);
+		}
 	}
 
 	for (rev = (count - 1); rev >= 0; rev--)
