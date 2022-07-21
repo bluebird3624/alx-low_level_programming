@@ -6,10 +6,10 @@
  * Return: the exponent of base two to the power passed in
  */
 
-int exponent(int expo)
+unsigned int exponent(unsigned int expo)
 {
-	int i;
-	int ans = 2;
+	unsigned int i;
+	unsigned int ans = 2;
 
 	if (expo == 0)
 	{
@@ -54,10 +54,6 @@ unsigned int binary_to_uint(const char *b)
 					return (0);
 				}
 			}
-		}
-		if(!b)
-		{
-			return (0);
 		}
 	}
 
